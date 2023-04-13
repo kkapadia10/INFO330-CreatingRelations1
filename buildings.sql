@@ -4,8 +4,7 @@ CREATE TABLE IF NOT EXISTS buildings (
   id INTEGER PRIMARY KEY AUTOINCREMENT
 );
 
-INSERT INTO buildings (name, shortname)
-VALUES 
+INSERT INTO buildings (name, shortname) VALUES 
 ('Bagley Hall', 'BAG'),
 ('Raitt Hall', 'RAI'),
 ('Kane Hall', 'KNE'),

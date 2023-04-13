@@ -18,3 +18,4 @@ INSERT INTO students (id, firstname, lastname, age) VALUES
   (10, 'Sam', 'Smalls', 68), 
   (11, 'Evan', 'Chang', 11),
   (12, 'Kaden', 'Kapadia', 18);
+  

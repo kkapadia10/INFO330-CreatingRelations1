@@ -13,3 +13,4 @@ INSERT INTO student_courses (studentid, course) VALUES
  (2, 'BAW0100'),
  (2, 'BAW100A'),
   (4, 'BAW0100');
+  
