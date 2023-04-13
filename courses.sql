@@ -1,6 +1,4 @@
-DROP TABLE courses;
-
-CREATE TABLE courses (
+CREATE TABLE IF NOT EXISTS courses (
   code VARCHAR(40) NOT NULL PRIMARY KEY,
   description VARCHAR(400),
   start DATE NOT NULL,
@@ -9,9 +7,9 @@ CREATE TABLE courses (
 );
 
 INSERT INTO courses (code, start, end, description) VALUES
-  ('INFO330A', '1 April 2023', '1 June 2023', 'Data and databases'),
-  ('INFO314', '1 April 2023', '1 June 2023', 'Networking and distributed Systems'),
-  ('INFO448A', '25 September 2023', '19 December 2023', 'Introduction to iOS'),
-  ('INFO449A', '25 September 2023', '19 December 2023', 'Introduction to Android'),
-  ('BAW010', '1 April 2023', '1 June 2023', 'Introduction to Basket-Weaving'),
-  ('BAW100A', '1 April 2023', '1 June 2023', 'Underwater Basket-Weaving');
+  ('INFO330A', '2023-04-01', '2023-06-01', 'Data and databases'),
+  ('INFO314', '2023-04-01', '2023-06-01', 'Networking and distributed Systems'),
+  ('INFO448A', '2023-09-25', '2023-12-19', 'Introduction to iOS'),
+  ('INFO449A', '2023-09-25', '2023-12-19', 'Introduction to Android'),
+  ('BAW0100', '2023-04-01', '2023-06-01', 'Introduction to Basket-Weaving'),
+  ('BAW100A', '2023-04-01', '2023-06-01', 'Underwater Basket-Weaving');
