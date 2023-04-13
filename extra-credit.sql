@@ -33,5 +33,5 @@ INSERT INTO schedule (coursecode, roomid, timeslotid) VALUES
   ('INFO314', 2, 1),
   ('INFO448A', 3, 3),
   ('INFO449A', 3, 2),
-  ('BAW010'0, 1, 4),
+  ('BAW0100', 1, 4),
   ('BAW100A', 2, 2);
