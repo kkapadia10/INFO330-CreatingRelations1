@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS schedule (
 );
 
 INSERT INTO schedule (coursecode, roomid, timeslotid) VALUES
-  ('INFO330A', 1, 1),
+  ('INFO330A', 1, 2),
   ('INFO314', 2, 1),
   ('INFO448A', 3, 3),
   ('INFO449A', 3, 2),

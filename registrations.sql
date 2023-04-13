@@ -4,8 +4,7 @@ CREATE TABLE IF NOT EXISTS student_courses (
   grade FLOAT DEFAULT NULL
 );
 
-INSERT INTO student_courses (studentid, course)
-VALUES 
+INSERT INTO student_courses (studentid, course) VALUES 
 (1, 'INFO330A'),
 (1, 'INFO448A'),
  (1, 'INFO314'),
